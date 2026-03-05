@@ -84,3 +84,16 @@ Trains 5 models (one per fold), reports Accuracy, Precision, Recall, Confusion M
 | Nasal Airflow | 32 Hz | Airflow at the nose/mouth |
 | Thoracic Movement | 32 Hz | Chest wall expansion/contraction |
 | SpO₂ | 4 Hz | Peripheral oxygen saturation |
+
+## AI Assistance Disclosure
+
+This project was completed with the assistance of Claude (Anthropic) as permitted by the assignment guidelines.
+
+AI assistance was used for:
+- Debugging file format parsing issues (custom timestamp formats, semicolon separators)
+- Writing and fixing the visualization script (vis.py)
+- Writing the preprocessing pipeline (create_dataset.py)
+- Writing the 1D CNN model and training script (train_model.py, cnn_model.py)
+- Resolving Git issues (removing large files from history)
+
+All code has been reviewed and understood by the author. The author is able to explain every part of the implementation including the signal processing pipeline, CNN architecture, and Leave-One-Participant-Out cross-validation strategy.
